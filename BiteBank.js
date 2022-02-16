@@ -42,3 +42,5 @@ const ContaCorrenteRicardo = new ContaCorrente();
 ContaCorrenteRicardo.saldo = 0;
 ContaCorrenteRicardo.agencia = 1001;
 console.log(ContaCorrenteRicardo);
+ContaCorrenteRicardo.depositar(100);
+console.log(ContaCorrenteRicardo.saldo)
